@@ -1,0 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&display=swap');
+body{
+  background: #6677ff;
+}
+section{    
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+   font-family:"Inter", sanserif;
+  padding:30px;
+}
+.fcard{
+  display:flex;
+  flex-direction:column;
+  width:290px;
+  height:400px;
+  background:#ffff;
+  border-radius:10px;
+  position:relative;
+  margin:5px;
+}
+img{
+  height:290px;
+  width:100%;
+  object-fit:cover;
+  overflow:hidden;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  box-shadow:0px 4px 2px #777; 
+}
+.rating{
+  position:absolute;
+  color:#fff;
+  left:20px;
+  top:20px;
+  width:35px;
+  padding:3px 10px;
+  background:#000000;
+  border-radius:5px;
+  text-algin:center;
+}
+.article{
+  display:flex;
+  flex-direction:column;
+  padding:10px;  
+  height:100%;overflow:hidden;
+}
+.lesson, .price{
+  display:flex;
+  justify-content:space-between;
+}
